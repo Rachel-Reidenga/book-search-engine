@@ -9,6 +9,9 @@ A Book search engine built using the MERN stack, with a React front end, MongoDB
 * MongoDB
 * Node.js
 * Express.js
+* GraphQL
+* Apollo Server
+* Heroku
 
 ## Deployment
 
