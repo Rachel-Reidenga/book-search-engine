@@ -38,7 +38,6 @@ const SavedBooks = () => {
         throw new Error("Something went wrong!");
       }
 
-      // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
@@ -46,7 +45,7 @@ const SavedBooks = () => {
     }
   };
 
-  // if data isn't here yet, say so
+
   if (loading) {
     return <h2>Loading</h2>;
   }
